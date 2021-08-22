@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav {
+  background-color: aliceblue;
+  position: fixed;
+  height: 1000px;
+  width: 100%;
+}
+
+.nav-btn{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  margin-right: 50%;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f00;
+}
+
+/*   First block   */
+#first-block {
+  background-color: antiquewhite;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  /* background-color: #ddd; */
+}
+
+/* ミッション?��：背景画像を設定してみよう?�??�?215行目を参�?に�? */
+
+.title-container {
+  text-align: left;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: serif;
+  text-align: center;
+  color: brack;
+}
+/* ミッション3?��見�?�し�?��?字�?�色を変えてみよう?�??�? */
+
+.hhhh{
+font-size: 30px;
+font-family: serif;
+color: black;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+}
+/*   First block End   */
+
+#second-block {
+  height: 1000px;
+  background-color: #f0f0f0;
+}
+
+
+.threecontainer{
+display: flex;
+flex-direction: row;
+}
+
+
+
+.event-fes {
+width: 90%;
+height: 840px;
+}
+
+.careerindex{
+padding-top: 90px;
+}
+
+/*   Second block   */
+#second-block {
+background-color: #f1ae9f;
+text-align: center;
+padding-bottom: 10px;
+height: 2700px;
+}
+
+.about-container {
+margin-top: 20px;
+width: 1200px;
+display: block;
+text-align: left;
+padding-left: 40px;
+flex-direction: row; 
+}
+
+/* 緊急ミッション?�? 「check」�?�位置関係がおかしくなって�?る…?�? 108~110行目までのコメントアウトを外してみよう?�? */
+
+
+.info-text {
+font-size: 20px;
+margin-top: 20px;
+margin-left: 0px;
+margin-bottom: 20px;
+color: #444;
+/* border-left: 5px dashed #444; */
+/* width: 30%; */
+/* display: flex;
+flex-direction: column; */
+}
+
+.event-ben {
+width: 45%;
+height: 450px;
+margin-right: 10px;
+/* margin-bottom: 400px; */
+/* margin-left: 0px; */
+}
+
+
+
+
+.info-title {
+font-size: 35px;
+font-family: serif;
+margin-bottom: 20px;
+color: rgb(0, 0, 0);
+text-align: center;
+/* border-bottom: 5px dashed #ffa500;  */
+}
+
+
+
+.font-small {
+font-size: 15px;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+text-align: left;
+margin-left: 30px;
+}
+/*   Second block End   */
+
+#third-block {
+background-color: rgb(171, 178, 211);
+text-align: center;
+padding-top: 30px;
+padding-bottom: 40px;
+height: 1000px;
+}
+
+.titlebox{
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* @media (min-width: 320px) and (max-width: 1000px)
+#comp-ka2c7q4o {
+  position: relative;
+  margin-left: 0%;
+  margin-right: 0px;
+  margin-top: 18.6875px;
+  margin-bottom: 0px;
+  align-self: flex-start;
+} */
+
+#comp-ka2c7q4o {
+height: auto;
+width: 80%;
+min-height: 0px;
+position: relative;
+margin-left: 0%;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+align-self: flex-start;
+order: 1;
+}
+
+.career-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 100%;
+}
+
+
+
+#comp-ka2c7q4u p {
+color: #270411;
+font-family: avenir-lt-w01_35-light1475496,sans-serif;
+font-size: calc(14px + (16 - 14) * ((100vw - var(--minViewportSize) * 1px) / (var(--maxViewportSize) - var(--minViewportSize))));
+letter-spacing: 0.02em;
+line-height: 2;
+min-height: 0vw;
+}
+
+.geeksalon {
+width: 30%;
+height: 330px;
+margin-left: 10px;
+}
+
+.careerindex {
+margin: auto;
+}
+
+.font_7{
+text-align: left;
+margin: auto;
+}
+
+/*   third block End   */
+
+#forth-block {
+background-color: #f1ae9f;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+height: 800px;
+}
+
+.event-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 100%;
+}
+
+.events-title {
+font-size: 60px;
+font-family: serif;
+color: #444;
+}
+
+.event {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+margin-top: 30px;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.event-name {
+height: 30px;
+}
+
+span {
+font-size: 40px;
+font-family: serif;
+}
+
+.event-image {
+width: 40%;
+height: 330px;
+}
+
+.btn-top{
+display: block;
+position: fixed;
+right: 20px;
+bottom: 40px;
+width: 80px;
+height: 80px;
+z-index: 498;
+background-color: #fff;
+border-radius: 50px;
+box-shadow: 0px 0px 29px 0px rgb(19 19 19 / 16%);
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+#fifth-block {
+  background-color: antiquewhite;
+  background-size: cover;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.power-container{
+display: flex;
+}
+
+.subtitle{
+text-align: center;
+height: 50px;
+margin-bottom: 40px;
+font-size: 50px;
+}
+
+/* コメントアウト外してみよう?�??�??�? */
+.black-box{
+/* background-color: dimgrey; */
+height: 450px;
+width: 33%;
+padding-top: 25px;
+/* color: floralwhite; */
+}
+
+.green-box{
+/* background-color: rgb(207, 226, 188); */
+height: 450px;
+width: 33%;
+padding-top: 25px;
+}
+
+.skyblue-box{
+/* background-color: rgb(10, 76, 141); */
+height: 450px;
+width: 33%;
+padding-top: 25px;
+/* color: floralwhite; */
+}
+
+/* ここまで�??�??�??�? */
+
+.maintitle{
+font-size: 30px;
+text-align: left;
+/* margin-top: 20px; */
+/* text-align: left; */
+}
+
+.maintheme{
+font-size: 30px;
+}
+
+.doublett{
+text-align: left;
+margin-left: 20px;
+}
+
+.font_8{
+text-align: left;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 40px;
+}
+
+.power-container2{
+display: flex;
+margin-top: 10px;
+}
+header {
+  width: 100%;
+  height: 60px; 
+  text-align: center;
+  padding: 10px 0;
+  background-color: orange;
+}
+footer {
+  width: 100%;
+  height: 73px; 
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f7ed94;
+  bottom: 0;
+}
+.footer-text {
+  color: #fff;
+}
+
+
+.comp-k5cfsti12_r_comp-k6gjwdge-container {
+position: relative;
+box-sizing: border-box;
+display: grid;
+grid-template-rows: minmax(50px,max-content) minmax(50px,max-content) minmax(50px,max-content) minmax(50px,max-content);
+grid-template-columns: 1fr 0.006792452830188679fr 1fr 1fr;
+}
+
+#comp-k5cfsti12_r_comp-ka3wep75 {
+height: 5px;
+width: auto;
+min-width: 0px;
+min-height: 0px;
+align-self: start;
+justify-self: stretch;
+position: relative;
+margin-left: 3.9992962932841754%;
+margin-right: 3.9992398160196685%;
+margin-top: 17px;
+margin-bottom: 3%;
+grid-area: 1/1/2/5;
+}
+
+.context{
+text-align: right;
+height: 80px;
+display: flex;
+}
+.subcontext{
+height: 1200px;
+}
